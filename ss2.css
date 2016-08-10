@@ -1,0 +1,298 @@
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.body {
+  background-image: url("http://images.designtrends.com/wp-content/uploads/2015/12/22100209/Green-Chalkboard-Texture.jpg");
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: left;
+}
+.title {
+  text-align: center;
+  font-size: 300%;
+}
+
+#image {
+  height: 30px;
+  width: auto;
+}
+
+.nav {
+  border: 2px hidden;
+  margin-left: 8%;
+  margin-right: 7%;
+  display: inline-block;
+}
+
+.left {
+  text-align: right;
+  margin-right: 3%;
+  padding: 0px;
+  border: 25px blue;
+}
+
+.right {
+  text-align: left;
+  margin-left: auto;
+}
+
+.one {
+  text-align: center;
+  background-color: orange;
+  background-image: url("http://www.animatedimages.org/data/media/87/animated-film-camera-image-0013.gif");
+  background-size: 120px auto;
+  width: 93px;
+  height: 80px;
+  border-radius: 15%;
+  line-height: 80px;
+}
+
+.two {
+  text-align: center;
+  background-color: red;
+  width: 93px;
+  height: 80px;
+  border-radius: 15%;
+  line-height: 80px;
+}
+
+#T {
+  width: 200px;
+  height: 100px;
+}
+
+.terminal {
+  background-color: rgb(40, 44, 52);
+  width: 50%;
+  height:auto;
+  margin-left: 25%;
+  text-align: left;
+  color: rgb(171, 178, 191);
+}
+
+#home {
+  background-image: url(https://www.kcet.org/sites/kl/files/styles/kl_image_hero/public/thumbnails/image/city-walk_202_san-francisco_hero.jpg?itok=7_QwaxqI);
+  background-position: fixed;
+}
+
+#head {
+  background-color: rgba(255, 0, 0, 0.5);;
+  color: white;
+  height: 300px;
+  text-align: center;
+  font-family: monospace;
+  margin-top: -2%;
+  width: 110%;
+  margin-left: -2%;
+  margin-right: 0%;
+  height: 775px;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+#h2ead {
+  color: grey;
+}
+
+.body {
+  color: white;
+}
+
+#mrperson {
+  font-family: 'Monoton', cursive;
+}
+
+#navpage {
+  color: white;
+  background-color: transparent;
+}
+
+.tools {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 60%;
+}
+
+#game-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 80%;
+}
+
+.tool:hover .tools{
+  display: block;
+}
+
+#games:hover #game-content{
+  display: block;
+}
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 125px;
+    border-radius: 20%;
+}
+
+.goldbtn {
+    background-color: gold;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 125px;
+    border-radius: 20%;
+}
+
+.goldbtn {
+  transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%) translateZ(0) scale(1, 1);
+}
+
+.goldbtn {
+  cursor: pointer;
+  outline: 0;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.goldbtn:hover {
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.goldbtn:hover:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewX(-40deg);
+  -webkit-transform: translate(-50%, -50%) skewX(-40deg);
+  opacity: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.9) 70%, rgba(255, 255, 255, 0) 100%);
+  width: 25%;
+  height: 100%;
+  animation: shine 1.5s infinite;
+  -webkit-animation: shine 1.2s infinite;
+}
+.goldbtn:active {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+@keyframes shine {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    left: 89%;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    left: 89%;
+  }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+
+.tophat {
+  margin-top: 5%;
+  text-align: left;
+  margin-bottom: -5%;
+  margin-left: 15px;
+}
+
+.info {
+  color: rgb(230, 230, 230);
+  text-shadow: 2px 2px rgb(25, 25, 25);
+  font-size: 75%;
+}
+
+#NewFeture {
+  font-size: 3em;
+}
+
+#contactl {
+  font-size: 75%;
+  background-color: white;
+  width: 100%;
+}
