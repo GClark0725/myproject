@@ -1,5 +1,5 @@
 body {
-  background-image: url(file:///Users/griffinrclark/Desktop/Website/myproject/PassG/public/Untitled1.png);
+  background-image: url("PassG/public/Untitled1.png");
   background-size: 75%;
   background-position: fixed;
   background-repeat: no-repeat;
