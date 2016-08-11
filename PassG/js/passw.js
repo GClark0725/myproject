@@ -9,6 +9,7 @@ var i = 0;
 var aray = [];
 var $poptart = document.getElementById("poptart")
 
+
 for (i = 0; i < 8; i++) {
   var test = alphabet[Math.floor(52*Math.random())]
   aray.push(test)
